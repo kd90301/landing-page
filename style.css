@@ -6,27 +6,35 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .header-box {
   display: flex;
   flex-direction: column;
-  background-color: aqua;
+  background-color: rgb(50, 50, 116);
+  color: aliceblue;
+  justify-content: center;
+  gap: 24px;
 }
 
 .header-top {
-  padding: 48px;
   display: flex;
   size: 200px;
- 
+  margin-top: 16px; 
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+
 }
 
-.header-text {
+.header-logo {
   font-size: large;
   font-weight: 700;
+  width: 330px;
+  
 }
 
 .header-links {
@@ -38,5 +46,40 @@ body {
 }
 
 .header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 16px;
+  margin-bottom: 64px;
+  flex-wrap: wrap;
   
+}
+
+.header-text {
+  font-size: 16px;
+  font-weight: 400;
+  width: 400px;
+}
+
+.header-image { 
+
+}
+
+.sign-up-button {
+  border-radius: 10px;
+  size: 16px;
+  width: 120px;
+  padding: 12px;
+  background-color: rgb(77, 77, 235);
+  color: aliceblue;
+}
+
+.sign-up-button:hover {
+  background-color: rgb(77, 159, 235);
+  transition: 0.7s;
+}
+
+.sign-up-button:active {
+  background-color: aquamarine;
 }
