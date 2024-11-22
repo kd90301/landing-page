@@ -1,0 +1,42 @@
+.test {
+  font-size: 32px;
+  color: brown;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.header-top {
+  padding: 48px;
+  display: flex;
+  size: 200px;
+ 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-text {
+  font-size: large;
+  font-weight: 700;
+}
+
+.header-links {
+  font-size: 14px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 12px;
+}
+
+.header-content {
+  
+}
