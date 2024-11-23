@@ -39,6 +39,7 @@ h2 {
   font-size: large;
   font-weight: 700;
   width: 330px;
+  color: rgb(181, 181, 181);
   
 }
 
@@ -48,6 +49,7 @@ h2 {
   text-decoration: none;
   list-style: none;
   gap: 12px;
+  color: rgb(181, 181, 181);
 }
 
 .header-content {
