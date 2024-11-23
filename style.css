@@ -97,6 +97,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   margin-top: 24px;
+  margin-bottom: 48px;
 }
 
 .info-header {
@@ -126,3 +127,33 @@ h2 {
   color: gray;
 }  
 
+.quote-box {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  background-color: rgb(165, 165, 165);
+  margin: 16px;
+  height: 300px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 16px;
+  /* margin-bottom: 64px; */
+  width: 500px;
+}
+
+.quote-text {
+  color: rgb(44, 44, 44);
+  font-size: larger;
+}
+
+.attribution {
+  padding-left: 160px;
+  margin-top: -36px;
+}
