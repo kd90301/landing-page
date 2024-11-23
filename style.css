@@ -5,7 +5,7 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 255, 243);
+  background-color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   
 }
@@ -13,7 +13,8 @@ body {
 .hero-text {
   font-size: 48px;
   font-weight: 900;
-  color: #F9FAF8
+  color: #F9FAF8;
+  margin-bottom: 0px;
 }
 
 .hero-secondary {
@@ -28,17 +29,18 @@ body {
   background-color: #1F2937;
   color: aliceblue;
   width: 100%;
- 
+  height: 535px;
   justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 
 .header-top {
   display: flex;
-  size: 200px;
-  margin-top: 16px; 
+  width: 950px;
+  margin-top: -60px; 
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
 }
@@ -46,49 +48,67 @@ body {
 .header-logo {
   font-size: 24px;
   font-weight: 700;
-  width: 340px;
+  width: 480px;
   color: #F9FAF8;
   
 }
 
 .header-links {
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   text-decoration: none;
   list-style: none;
-  gap: 12px;
+  gap: 16px;
   color: rgb(181, 181, 181);
 }
 
 .header-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 24px;
   margin: 16px;
+  margin-top: 64px;
   margin-bottom: 64px;
   flex-wrap: wrap;
+  width: 1000px;
   
 }
 
 .header-text {
   font-size: 16px;
   font-weight: 400;
-  width: 400px;
-}
-
-.header-image { 
-
+  width: 490px;
 }
 
 .sign-up-button {
   border-radius: 10px;
   size: 16px;
   width: 120px;
+  height: 35px;
   padding: 12px;
   background-color: #3882F6;
-  color: aliceblue;
-  border: solid white 1px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+.sign-up-button-2 {
+  border-radius: 10px;
+  size: 16px;
+  width: 120px;
+  height: 35px;
+  padding: 12px;
+  background-color: #3882F6;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  border: solid white 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-up-button:hover {
@@ -109,7 +129,7 @@ body {
 }
 
 .info-header {
-  margin: 16px;
+  margin-top: 0px;
   margin-bottom: 24px;
 }
 
@@ -123,7 +143,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px;
 }
 
 .img-and-description {
@@ -134,11 +154,15 @@ body {
 
 .rounded-img {
   border-radius: 15px;
-  border: solid rgb(158, 158, 158) 1px;
+  width: 175px;
+  border: solid #3882F6 3px;
 }
 
 .description {
   color: gray;
+  text-align: justify;
+  text-align-last: center; 
+  font-size: 16px;
 }  
 
 .quote-box {
@@ -149,7 +173,7 @@ body {
   width: 100%;
   background-color: #E5E7EB;
   margin: 16px;
-  height: 300px;
+  height: 400px;
 }
 
 .quote {
@@ -165,16 +189,14 @@ body {
 .quote-text {
   color: #1F2937;
   font-size: 36px;
+  font-weight: lighter;
   font-style: italic;
 }
 
 .attribution {
-  padding-left: 160px;
+  padding-left: 360px;
   margin-top: -36px;
-}
-
-h3 {
-  font-size: large;
+  font-size: larger;
 }
 
 .call-to-action-box {
@@ -182,15 +204,16 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: #3882F6;
-  margin: 72px;
+  border-radius: 10px;
+  margin: 100px;
   padding: 16px 72px 16px 72px;
-  gap: 36px;
-  height: 100px;
-  width: 500px;
+  gap: 200px;
+  height: 120px;
+  width: 880px;
 }
 
 .action-header {
-  font-size: larger;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -199,8 +222,13 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   color: aliceblue;
-  gap: 8px;
-  max-width: 350px;
+  gap: 4px;
+  width: 440px;
+}
+
+.action-text {
+  font-size: 16px;
+  color: rgb(215, 215, 215);
 }
 
 .copyright-box {
@@ -209,7 +237,9 @@ h3 {
   align-items: center;
   width: 100%;
   background-color: #1F2937;
+  height: 100px;
 }
  .copyright-text {
-  color: aliceblue;
+  font-size: 16px;
+  color: rgb(181, 181, 181);
  }
