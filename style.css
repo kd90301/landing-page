@@ -157,3 +157,33 @@ h2 {
   padding-left: 160px;
   margin-top: -36px;
 }
+
+h3 {
+  font-size: large;
+}
+
+.call-to-action-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(127, 153, 255);
+  margin: 48px;
+  padding: 16px 72px 16px 72px;
+  gap: 36px;
+  height: 100px;
+  width: 500px;
+}
+
+.action-header {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.action-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: aliceblue;
+  gap: 8px;
+  max-width: 350px;
+}
