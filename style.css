@@ -1,6 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   background-color: beige;
@@ -18,6 +20,7 @@ h2 {
   flex-direction: column;
   background-color: rgb(50, 50, 116);
   color: aliceblue;
+  width: 950px;
   justify-content: center;
   gap: 24px;
 }
@@ -75,6 +78,7 @@ h2 {
   padding: 12px;
   background-color: rgb(77, 77, 235);
   color: aliceblue;
+  border: solid white 1px;
 }
 
 .sign-up-button:hover {
@@ -93,6 +97,11 @@ h2 {
   margin-top: 24px;
 }
 
+.info-header {
+  margin: 16px;
+  margin-bottom: 24px;
+}
+
 .image-box {
   display: flex;
   justify-content: space-between;
@@ -100,8 +109,15 @@ h2 {
   gap: 24px;
 }
 
-img {
+.img-and-description {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+}
+
+.rounded-img {
   border-radius: 15px;
+  border: solid rgb(158, 158, 158) 1px;
 }
 
   
