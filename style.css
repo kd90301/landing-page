@@ -20,8 +20,8 @@ body {
 .hero-secondary {
   margin-top: 4px;
   font-size: 18px;
-  color: #cdcece;
-  flex-wrap: wrap;
+  color: rgb(181, 181, 181)
+
 }
 
 .header-box {
@@ -38,7 +38,7 @@ body {
 
 .header-top {
   display: flex;
-  width: 950px;
+  width: 990px;
   margin-top: -60px; 
   flex-direction: row;
   justify-content: space-around;
@@ -71,14 +71,12 @@ body {
   margin: 16px;
   margin-top: 64px;
   margin-bottom: 64px;
-  flex-wrap: wrap;
+  flex-wrap: row;
   width: 1000px;
   
 }
 
 .header-text {
-  font-size: 16px;
-  font-weight: 400;
   width: 490px;
 }
 
@@ -172,6 +170,7 @@ body {
 
 .quote-box {
   display:flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -183,12 +182,13 @@ body {
 
 .quote {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 24px;
   margin: 16px;
   /* margin-bottom: 64px; */
-  width: 700px;
+  max-width: 700px;
 }
 
 .quote-text {
@@ -206,6 +206,7 @@ body {
 
 .call-to-action-box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: #3882F6;
@@ -214,7 +215,7 @@ body {
   padding: 16px 72px 16px 72px;
   gap: 200px;
   height: 120px;
-  width: 880px;
+  min-width: 880px;
 }
 
 .action-header {
@@ -228,10 +229,12 @@ body {
   flex-wrap: wrap;
   color: aliceblue;
   gap: 4px;
-  width: 440px;
+  max-width: 440px;
 }
 
 .action-text {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 16px;
   color: rgb(215, 215, 215);
 }
